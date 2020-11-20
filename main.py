@@ -3,7 +3,7 @@ def print_factors(x):
 		if x % i == 0:
 			print(i)
 
-num = 430
+num = int(input("Enter number"))
 
 print_factors(num)
 
